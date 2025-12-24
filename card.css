@@ -22,7 +22,8 @@ body {
 }
 .score-table {
   text-align: left;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   padding: 0;
   margin: 0;
   display: flex;
@@ -40,7 +41,8 @@ body {
 .deck {
   background: linear-gradient(135deg, rgb(96, 217, 247) 0%, rgb(165, 249, 255) 36%, rgb(71, 158, 169) 100%);
   margin: 0;
-  width: 620px;
+  width: 100%;
+  max-width: 620px;
   min-height: 500px;
   box-shadow: 10px 9px 31px 1px rgba(0, 0, 0, 0.192);
   border-radius: 20px;
@@ -103,6 +105,7 @@ body {
   background-color: rgb(241, 241, 241);
   padding: 1rem 1.5rem;
   width: 35rem;
+  max-width: 90%;
   border-radius: 0.5rem;
   text-align: center;
 }
@@ -147,7 +150,8 @@ body {
 }
 @media screen and (max-width: 600px) {
   .deck {
-      width: 350px;
+      width: 100%;
+      max-width: 350px;
       min-height: 280px;
   }
   .card i {
@@ -172,13 +176,14 @@ body {
       font-size: 20px;
   }
   h3 {
-      font-size: 256px;
+      font-size: 25px;
   }
   .score-table {
-      width: 300px;
+      width: 100%;
+      max-width: 300px;
   }
   .emoji {
-    font-size: 3em;
+    font-size: 1em;
     line-height: 1.5;
   }
 }
